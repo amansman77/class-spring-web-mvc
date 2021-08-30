@@ -1,0 +1,5 @@
+digraph "com.ho.servlet:java-servlet-demo:war:1.0-SNAPSHOT" { 
+	"com.ho.servlet:java-servlet-demo:war:1.0-SNAPSHOT" -> "junit:junit:jar:4.11:test" ; 
+	"com.ho.servlet:java-servlet-demo:war:1.0-SNAPSHOT" -> "javax.servlet:javax.servlet-api:jar:4.0.1:provided" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+ } 
